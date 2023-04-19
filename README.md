@@ -38,8 +38,6 @@ The above tasks were separated and implemented as the following simple commands:
 - saving to eeprom;
 - FX3U and OP320 communication by modbus.
 
-The task was given two weeks to complete + no experience in developing for controllers before.
-
 <a name="firmware"></a>
 ## Firmware
 The project includes 6 main files (except main.cpp):
