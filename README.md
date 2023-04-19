@@ -87,7 +87,7 @@ This class defines the basic algorithms for the behavior of the controller when 
 
 <a name="firmware"></a>
 ### <s>7.</s> Main (include [ModbusMaster](https://github.com/4-20ma/ModbusMaster))
-<s>You already know what main is.</s> This is where all libraries are included, all necessary variables are initialized, modbus, serial (for modbus) is configured, the called functions are set and the task manager is started.
+<s>You already know what main is.</s> Here all libraries are included, all necessary variables are initialized, modbus, serial (for modbus) is configured, the called functions are set and the task manager is started.
 
 <a name="report"></a>
 ### Report
