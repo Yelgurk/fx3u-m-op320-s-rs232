@@ -75,15 +75,24 @@ This class defines the basic algorithms for the behavior of the controller when 
 
 ##### Report
 Before I started working with the firmware I had to separately solder a lir1220 type battery holder.
+
 ![](https://github.com/Yelgurk/fx3u-m-op320-s-rs232/blob/main/readme_gif/PLC_preparing.gif)
+
+
 
 After preparing the controllers you can start flashing.
 Start with the OP320 panel. Open the OP Series Edit Tool (in my case version 8.0, like the controller itself), open my project and flash the panel.
+
 ![](https://github.com/Yelgurk/fx3u-m-op320-s-rs232/blob/main/readme_gif/OP320_demo.gif)
+
+
 
 When you have flashed and made sure that the HMI panel works, then proceed to the final part - the PLC firmware.
 The project is built with Platformio in VS Code. The controller is flashed via SWD with ST-link. Everything you need to configure is in platformio.ini. Set it up, flash it, test it.
+
 ![](https://github.com/Yelgurk/fx3u-m-op320-s-rs232/blob/main/readme_gif/OP320_PLC.gif)
+
+
 
 ### Issues
 Before summarizing, it is necessary to confess and share the obvious problems of the project.
