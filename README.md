@@ -91,13 +91,8 @@ This class defines the basic algorithms for the behavior of the controller when 
 
 <a name="report"></a>
 ### Report
-Before I started working with the firmware I had to separately solder a lir1220 type battery holder.
 
-![](https://github.com/Yelgurk/fx3u-m-op320-s-rs232/blob/main/readme_gif/PLC_preparing.gif)
-
-
-
-After preparing the controllers you can start flashing.
+Prepare controllers (PLCI + HMI) and start flashing.
 Start with the OP320 panel. Open the OP Series Edit Tool (in my case version 8.0, like the controller itself), open my project and flash the panel.
 
 ![](https://github.com/Yelgurk/fx3u-m-op320-s-rs232/blob/main/readme_gif/OP320_demo.gif)
